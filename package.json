@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "scripts": {
+    "lerna:clean": "lerna clean"
+  },
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "libraries/*"
+  ],
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}
